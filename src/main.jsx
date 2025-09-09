@@ -1,22 +1,7 @@
-import React from "react";
-import { createRoot } from "react-dom/client";
 import "./index.css";
-
-// A simple Greeting component
-function Greeting() {
-  return <p>Hello Atlas</p>;
-}
-
-// The main App component
-function App() {
-  return <Greeting />;
-}
+import ReactDOM from "react-dom/client";
+import App from "./App";
 // Render the App component to the root element
-const rootElement = document.getElementById("root");
-const root = createRoot(rootElement);
-
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+const div = document.getElementById("root");
+const root = ReactDOM.createRoot(div);
+root.render(<App />);
