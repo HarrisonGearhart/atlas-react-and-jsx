@@ -33,4 +33,4 @@ export function Greeting() {
 	);
 }
 
-Export default Greeting;
+export default Greeting;
