@@ -23,6 +23,11 @@ function App() {
             <li>Unidirectional Data Flow: React typically follows a unidirectional data flow, where data flows in a single direction (from parent components to child components), simplifying debugging and state management.</li>
           </ul>
         </Section>
+        <Section title="Helpful resources">
+        <HelpfulResource link="https://www.w3schools.com/REACT/DEFAULT.ASP" label="W3 Schools - Learning by Examples" />
+        <HelpfulResource link="https://www.codecademy.com/learn/react-101" label="Code Academy - React 101" />
+        <HelpfulResource link="https://www.geeksforgeeks.org/reactjs/react/" label="Geeks for Geeks - React Tutorial" />
+        </Section>
         </div>
     );
 }
